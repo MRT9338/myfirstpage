@@ -1,0 +1,14 @@
+
+@font-face {
+
+    font-family: myfont;
+    src: url("font/IRANSansWeb_Light.ttf");
+    font-weight: normal;
+
+}
+@font-face {
+
+    font-family: myfontlight;
+    src: url("font/IRANSansWeb_UltraLight.ttf");
+
+}

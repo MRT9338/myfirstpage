@@ -1,0 +1,41 @@
+@media screen and (max-width: 650px) {
+
+    section.text{
+
+        font-size: 20px;
+    }
+    #header{
+        height: 60vh;
+    }
+
+
+
+    }
+@media screen and (max-width: 850px) {
+
+    section.text{
+
+        font-size: 30px;
+    }
+
+
+    .nav-responsive{
+        display: inline-block;
+    }
+    .nav-link{
+        display: none;
+    }
+
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+/* overlay */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 16px}
+    .overlay .closebtn {
+        font-size: 16px;
+        top: 15px;
+        right: 35px;
+    }
+}
